@@ -1,0 +1,14 @@
+C:\Users\Augus\4sem\SWD\exercise1\Cardgame\bin\Debug\net8.0\Cardgame.exe
+C:\Users\Augus\4sem\SWD\exercise1\Cardgame\bin\Debug\net8.0\Cardgame.deps.json
+C:\Users\Augus\4sem\SWD\exercise1\Cardgame\bin\Debug\net8.0\Cardgame.runtimeconfig.json
+C:\Users\Augus\4sem\SWD\exercise1\Cardgame\bin\Debug\net8.0\Cardgame.dll
+C:\Users\Augus\4sem\SWD\exercise1\Cardgame\bin\Debug\net8.0\Cardgame.pdb
+C:\Users\Augus\4sem\SWD\exercise1\Cardgame\obj\Debug\net8.0\Cardgame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Augus\4sem\SWD\exercise1\Cardgame\obj\Debug\net8.0\Cardgame.AssemblyInfoInputs.cache
+C:\Users\Augus\4sem\SWD\exercise1\Cardgame\obj\Debug\net8.0\Cardgame.AssemblyInfo.cs
+C:\Users\Augus\4sem\SWD\exercise1\Cardgame\obj\Debug\net8.0\Cardgame.csproj.CoreCompileInputs.cache
+C:\Users\Augus\4sem\SWD\exercise1\Cardgame\obj\Debug\net8.0\Cardgame.dll
+C:\Users\Augus\4sem\SWD\exercise1\Cardgame\obj\Debug\net8.0\refint\Cardgame.dll
+C:\Users\Augus\4sem\SWD\exercise1\Cardgame\obj\Debug\net8.0\Cardgame.pdb
+C:\Users\Augus\4sem\SWD\exercise1\Cardgame\obj\Debug\net8.0\Cardgame.genruntimeconfig.cache
+C:\Users\Augus\4sem\SWD\exercise1\Cardgame\obj\Debug\net8.0\ref\Cardgame.dll
