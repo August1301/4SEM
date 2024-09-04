@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ImageAdder.MainPage">
+
+    <ScrollView>
+    
+    <HorizontalStackLayout
+        Padding="30,0">
+
+            <CollectionView
+            SelectionMode="Single"
+            ItemsSource="{Binding Images}"
+            x:Name="ImageCollectionView">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <VerticalStackLayout Padding="20" Spacing="20">
+                            <Image
+                                Source="{Binding Path_}"
+                                HeightRequest="400"
+                                WidthRequest="300"
+                                Aspect="AspectFill"
+                                HorizontalOptions="Center">
+                                </Image>
+                            <Label
+                                Text="{Binding Title}"
+                                FontAttributes="Bold"
+                                SemanticProperties.HeadingLevel="Level2" />
+                            <Label
+                                Text="{Binding Description}"
+                                FontAttributes="Italic"
+                                LineBreakMode="WordWrap"/>
+                                </VerticalStackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+
+            <Label
+                Text="Select Images"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+            <Button
+                x:Name="ImageSelect"
+                Text="Select Image From Gallery" 
+                SemanticProperties.Hint="Selects image"
+                Clicked="OnSelectClicked"
+                HorizontalOptions="Fill" />
+            <Entry
+                x:Name="ImageTitle"
+                Placeholder="Enter Image Title"
+                SemanticProperties.Hint="Enter image Title"
+                HorizontalOptions="Fill" />
+            <Editor
+                x:Name="ImageDescription"
+                Placeholder="Enter Image Description"
+                SemanticProperties.Hint="Enter image Description"
+                HeightRequest="100"
+                HorizontalOptions="Fill" />
+            <Button 
+                x:Name="AddImage"
+                Text="Add Image"
+                SemanticProperties.Hint="Adds image to database"
+                Clicked="OnAddClicked"
+                HorizontalOptions="Fill"/>
+        </VerticalStackLayout>
+            <Image
+                x:Name="SelectedImage"
+                HeightRequest="200"
+                HorizontalOptions="Fill"
+                VerticalOptions="Fill" />
+        </HorizontalStackLayout>
+    </ScrollView>
+
+</ContentPage>
